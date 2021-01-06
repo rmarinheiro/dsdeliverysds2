@@ -21,7 +21,7 @@ public class OrderDTO implements Serializable {
 	private Instant moment;
 	private OrderStatus status;
 	
-	private List<ProductDTO> products = new ArrayList<ProductDTO>();
+	private List<ProductDTO> products = new ArrayList<>();
 	
 	public OrderDTO() {
 	}
