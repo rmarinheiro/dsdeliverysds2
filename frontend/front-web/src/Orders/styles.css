@@ -56,10 +56,10 @@
   }
   
   .orders-list-items {
-    width: 70%;
+    width: 80%;
     display: grid;
     grid-template-columns: repeat(auto-fill, 235px);
-    grid-gap: 20px 15px;
+    grid-gap: 30px 15px;
     justify-content: space-between;
   }
   
@@ -119,8 +119,9 @@
     border-top: 1px solid #E6E6E6;
     margin-top: 15px;
     padding-top: 15px;
+    
   }
-  
+
   .order-card-description h3 {
     font-size: 16px;
     line-height: 22px;
@@ -136,6 +137,8 @@
   
     color: var(--secondary-color);
   }
+  
+  
   
   .order-location-container {
     display: flex;
