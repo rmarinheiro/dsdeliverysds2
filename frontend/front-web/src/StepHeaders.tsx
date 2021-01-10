@@ -1,5 +1,5 @@
 import React from "react";
-import{ ReactComponent } from './logo.svg';
+
 
 function StepHeaders () {
     return (
