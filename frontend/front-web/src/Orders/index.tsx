@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
-import { toast,ToastContainer } from 'react-toastify';
+import { toast} from 'react-toastify';
 import  "./styles.css";
-import{ ReactComponent as Logo  } from './logo.svg';
+import{ ReactComponent } from './logo.svg';
 import StepHeaders from "../StepHeaders";
 import ProductList from "../ProductList";
 import { Product, OrderLocationData } from "./types";
