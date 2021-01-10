@@ -197,11 +197,11 @@
     width: calc(70% - 40px);
     display: flex;
     justify-content: space-between;
-    background: #FFF;
+    background: #DA5C5C;
     box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.25);
     border-radius: 10px;
-    background-color: var(--primary-color);
-    color: #FFF;
+    --background-color: var(--primary-color);
+    color: #DA5C5C;
     padding: 20px;
   }
   
@@ -211,6 +211,7 @@
     line-height: 15px;
     letter-spacing: -0.015em;
     display: block;
+    color: #FFF;
     margin-bottom: 10px;
   }
   
