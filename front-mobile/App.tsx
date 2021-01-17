@@ -1,7 +1,7 @@
 import { StatusBar } from 'expo-status-bar';
 import React from 'react';
 import { StyleSheet, Text, View } from 'react-native';
-import Header from './src/Header';
+import Header from './src/header';
 import { useFonts,OpenSans_400Regular,OpenSans_700Bold } from '@expo-google-fonts/open-sans';
 import AppLoading from 'expo-app-loading';
 import Home from './src/Home';
